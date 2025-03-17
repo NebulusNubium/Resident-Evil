@@ -15,7 +15,33 @@ a {
 }
 
 .main-menu {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: top;
     list-style: none;
+}
+
+.banner img {
+    background-image: url(../img/banner.jpg) ;
+width: 100%;
+}
+
+.logo {
+
+}
+
+.banner {
+    height: 500px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
 }
 
 .savoirplus {
