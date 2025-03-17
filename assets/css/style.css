@@ -49,3 +49,31 @@ section {
     color: white;
     padding: 10px 15px;
 }
+
+.titre-actualite {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.actualites {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.actualite {
+    width: 30%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+.actualite img {
+    width: 100%;
+}
+
+.news-txt {
+    padding-left: 1rem;
+}
