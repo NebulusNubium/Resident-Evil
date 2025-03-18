@@ -92,8 +92,12 @@ h1, h3 {
 #newsletter-back {
     background-color: rgb(48, 48, 48);
     color: white;
-    padding-top: 2rem;
+    padding: 2rem;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 input {
@@ -103,20 +107,31 @@ input {
 #foot {
     background-color: black;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logo-foot img {
-    width: 5%;
+#foot .logo-foot {
+    max-width: 100px;
 }
 
-.bot-menu {
-    list-style: none;
-    font-size: 10px;
+#foot .logo-foot img {
+    width: 70%;
+    margin-left: 5rem;
+}
+
+#foot .bot-menu  {
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    padding-right: 5rem;
-    width: 1000px;
+    gap: 16px;
+    font-size: 8px;
+    margin-right: 5rem;
 }
+
+.bot-menu{
+    content: ;
+}
+
+#foot .bot-menu a {
+    color: white;
+}
+
