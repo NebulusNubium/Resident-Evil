@@ -22,9 +22,9 @@ a {
     list-style: none;
 }
 
-.bartop::before{
-    content: "|";
-    margin-right: 1rem;
+.bartop{
+    border-left: 1px solid black;
+    padding-left: 2rem;
 }
 
 h1, h3 {
