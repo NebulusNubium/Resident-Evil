@@ -147,3 +147,65 @@ input {
     color: white;
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 780px) {
+    .main-menu {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: top;
+        list-style: none;
+    }
+    
+    .bartop {
+        border-left: 1px solid black;
+        padding-left: 5px;
+    }
+    #accueil {
+        border-left: 1px solid black;
+        padding-left: 5px;
+    }
+
+    #banner {
+        background-image: url(../img/banner.jpg);
+        background-position: center;
+        height: 30vh;
+    }
+    
+    #foot .logo-foot img {
+        width: 80%;
+        margin-left: 5px;
+    }
+    
+    #foot .bot-menu  {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 14px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+    #foot {
+        flex-direction: column;
+        text-align: left;
+    }
+}   
+
+@media screen and (max-width: 400px) {
+    .actualites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .actualite {
+        width: 70%;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        text-align: left;
+        padding-bottom: 4rem;
+    }
+
+}
